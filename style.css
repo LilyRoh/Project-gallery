@@ -1,0 +1,333 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+   
+
+    
+}
+body{
+    background-color:honeydew;
+
+}
+
+.navbar-link{
+    text-align: center;
+    margin-bottom: 60px;
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(4px);
+    padding: 25px;
+    z-index: 2;
+    
+
+   
+
+}
+.navbar-link li{
+    display: inline-block;
+    text-align: center;
+    
+}
+.navbar-link a{
+    margin-left: 0px;
+    margin-right: 20px;
+    font-size: 1.5rem;
+    color: #58595b;
+    text-decoration: none;
+    font-weight: 800;
+    
+     
+    
+}
+.navbar-link a:hover{
+    background-color: rgba(170, 166, 166, 0.443);
+   
+
+}
+
+.intro{
+    padding-left: 30px;
+    margin:20px;
+    justify-content: center;
+    display: block;
+    flex-wrap: wrap;
+    margin: auto;
+    font-size: 1.6rem;
+    color: #171718;
+    line-height: 2.5rem;
+    max-width: 800px;
+    margin-top:100px;
+    padding-top: 100px;
+    font-weight: 800;
+}
+@media screen and (max-width:900px) {
+       
+    .intro{
+        width: 500px;
+        font-size: 1.2rem;
+        float:left;
+        display: flex;
+        justify-content: flex-start;
+    }
+    #photo{
+        padding:0; 
+        padding-bottom:30px;
+        width: 95%;
+        
+
+        
+
+        
+        
+    }
+    
+
+    
+    
+}
+
+
+.eunhye-img{
+    width:100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 3rem;
+}
+
+    
+    
+.header{
+    display: flex;
+    max-height: 100%;
+    flex-wrap: wrap;
+
+    
+}
+#row {
+    flex-direction:row;
+    display: flex;
+    
+    }
+
+
+.projects{
+    margin: 0 auto;
+}
+.project-photo{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 2px 2px 10px #bfbfbf;
+	margin:20px;
+    
+        
+}
+
+.project-photo img{
+    width:380px;
+    height:380px;
+    justify-content: space-around;
+    padding: 1px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    
+}
+
+.flex{
+    background-color: honeydew;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width:1416px ;
+    align-items: center;
+    margin: auto;
+
+
+}
+.aboutMe{
+    line-height: 2.5rem;
+    padding: 6rem;
+    font-weight: 600;
+
+}
+#about{
+    background-color:rgba(235, 229, 116, 0.624);
+    color:#171718;
+    padding: 6rem 2rem 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 100%;
+    padding: 6rem;
+    
+
+}
+#projects{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5rem;
+    padding: 30px;
+    
+}
+.intro
+.eunhye-img {
+    min-height: 600px;
+    margin: 2px;
+
+}
+.studies{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.studies-items{
+    background-color: #58595b;
+    border-radius: 0.5rem;
+    cursor:pointer;
+    color: white;
+    font-weight:600;
+    margin: 0.6rem;
+    padding: 0.6rem 2rem;
+}
+#contact{
+    background-color:white;
+    text-align: center;
+    padding: 20px;
+
+}
+.moreinfo{
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 5px;
+    width:380px;
+    
+
+}
+#info{
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+    height: 700px;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 300px;
+}
+
+
+#to-top {
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: #fefefe;
+	box-shadow: 2px 2px 10px #bfbfbf;
+	visibility: hidden;
+	opacity: 0;
+	transition-duration: .3s;
+	cursor: pointer;
+    
+}
+
+.shadow {
+	box-shadow: 2px 2px 10px #bfbfbf;
+}
+
+#to-top.show {
+	visibility: visible;
+	opacity: 1;
+}
+
+#contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+       
+}
+.contact-img{
+   align-items: center;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+
+}
+.contact-img p{
+    font-size: 1.5rem;
+    font-weight: 800;
+
+}
+.contact-icon{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 2rem;
+    width: 30%;
+
+}
+
+
+
+/* more info*/
+.moreinfo h3{
+    padding: 10px;
+    
+}
+.showMore {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    font-weight: 800;
+    margin-top: 10px;
+  }
+  
+  .active, .showMore:hover {
+    background-color:#58595b ;
+  }
+  
+  .content {
+    padding-top: 18px;
+    display: none;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: 700;
+
+   
+  }
+
+  @media only screen and (max-width: 480px) {
+     .header{
+      width: 270px;
+      margin-bottom: 20px;
+
+    }
+    #about{
+        margin-top:5px;
+    }
+  }
+  
